@@ -1,7 +1,6 @@
 #container{
     padding: 3%;
-    position: static;
-    
+    position: static;    
 }
 
 p[title~="relative"]{
@@ -37,5 +36,16 @@ div[title="sinFondo num2"]{
     width: 110px;
     text-align: left;
     float: left;
+}
+
+.colum1of2 {
+    float: left;
+    width: 60%;
+    margin: 10px;    
+}
+.colum2of2 {
+    float: left;
+    width: 25%;
+    margin: 10px;    
 }
 
