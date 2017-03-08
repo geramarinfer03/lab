@@ -2,10 +2,10 @@
     background: #DED2CF;
     border: 8px solid black;    
 }
-body{
+/*body{
     border: 2px solid red;    
 }
-
+*/
 div[title~="conFondo"]{
     background: gray;
     color: white;

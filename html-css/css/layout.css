@@ -9,7 +9,6 @@ p[title~="relative"]{
     left: 20px;
 }
 
-
 div[title~="conFondo"] h1{
     padding: 4px;    
 }
@@ -45,7 +44,12 @@ div[title="sinFondo num2"]{
 }
 .colum2of2 {
     float: left;
-    width: 25%;
+    width: 35%;
     margin: 10px;    
 }
 
+.colum1of3, .colum2of3, .colum3of3 {
+    width: 30%;
+    float: left;
+    margin: 10px;    
+}
