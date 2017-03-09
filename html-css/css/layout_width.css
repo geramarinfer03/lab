@@ -1,0 +1,80 @@
+#container_width {
+    padding: 3%;
+    position: fixed;
+    height: 90%;
+    overflow: auto;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+}
+
+#navigation {
+    width: 99%;
+    height: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.columns {
+    width: 100%;
+    height: 43%;
+    margin-top: 1%;
+}
+
+div[title~="caja"] {
+    background: #efefef;
+    padding: 4px;
+}
+
+.feature {
+    width: 99%;
+    height: 26%;
+}
+
+.colum1of3,
+.colum2of3,
+.colum3of3 {
+    width: 29.8%;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    /*  margin-top: 2%;*/
+}
+
+article {
+    margin: 5%;
+    text-align: justify;
+}
+
+.colum2of3 {
+    margin-left: 4.1%;
+    margin-right: 4.1%;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    height: 5%;
+    margin-top: 1%;
+}
+
+
+/*nav {
+    margin: 0 auto;
+}*/
+
+#navigation ul {
+    width: 100%;
+}
+
+#navigation ul li {
+    display: inline;
+}
+
+#navigation li a {
+    float: left;
+    width: 10%;
+    padding-right: 10px;
+}
