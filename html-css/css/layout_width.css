@@ -148,3 +148,17 @@ article_fixed {
     width: 10%;
     padding-right: 10px;
 }
+
+
+/*------------------------------------------------------*/
+
+.container_12 {
+    margin: 0 auto;
+    background-color: #fff;
+    background-repeat: repeat-y;
+    margin-bottom: 20px;
+}
+
+.container_12 {
+    background-image: url(../img/12_col.gif);
+}
