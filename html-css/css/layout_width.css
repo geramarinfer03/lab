@@ -1,7 +1,7 @@
-#container_width {
+#container_width_liquid {
     padding: 3%;
     position: fixed;
-    height: 90%;
+    height: 99%;
     overflow: auto;
 }
 
@@ -30,7 +30,7 @@ div[title~="caja"] {
 
 .feature {
     width: 99%;
-    height: 26%;
+    height: 22%;
 }
 
 .colum1of3,
@@ -60,11 +60,6 @@ article {
     margin-top: 1%;
 }
 
-
-/*nav {
-    margin: 0 auto;
-}*/
-
 #navigation ul {
     width: 100%;
 }
@@ -74,6 +69,81 @@ article {
 }
 
 #navigation li a {
+    float: left;
+    width: 10%;
+    padding-right: 10px;
+}
+
+
+/**************Fixed**************************/
+
+#container_width_fixed {
+    padding: 5px;
+    margin: 0 auto;
+    height: 90%;
+    width: 960px;
+    overflow: auto;
+}
+
+#navigation_fixed {
+    width: 955px;
+    height: 45px;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.columns_fixed {
+    width: 960px;
+    height: 375px;
+    margin-top: 1%;
+}
+
+div[title~="caja"] {
+    background: #efefef;
+    padding: 4px;
+}
+
+.feature_fixed {
+    width: 955px;
+    height: 160px;
+}
+
+.colum1of3_fixed,
+.colum2of3_fixed,
+.colum3of3_fixed {
+    width: 298px;
+    float: left;
+    height: 100%;
+    overflow-y: auto;
+    /*  margin-top: 2%;*/
+}
+
+article_fixed {
+    margin: 5%;
+    text-align: justify;
+}
+
+.colum2of3_fixed {
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.footer_fixed {
+    text-align: center;
+    margin: auto;
+    height: 25px;
+    margin-top: 1%;
+}
+
+#navigation_fixed ul {
+    width: 100%;
+}
+
+#navigation_fixed ul li {
+    display: inline;
+}
+
+#navigation_fixed li a {
     float: left;
     width: 10%;
     padding-right: 10px;
