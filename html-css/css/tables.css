@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    padding: 5px;
+}
+
+th {
+    border-bottom: 1px solid #0b263f;
+    color: white;
+    background: #83bbef;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+th:last-child {
+    border-top-right-radius: 10px;
+}
+
+td {
+    min-width: 100px;
+    background: #e6f3ff;
+    border: 1px solid #caccce;
+}
+
+td:first-child {
+    font-weight: bold;
+    border-left: none;
+}
+
+td:last-child {
+    border-right: none;
+}

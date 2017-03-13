@@ -1,18 +1,21 @@
-#container{
+@import url("tables.css");
+@import url("style.css");
+#container {
     padding: 3%;
-    position: static;    
+    position: static;
 }
 
-p[title~="relative"]{
+p[title~="relative"] {
     position: relative;
     top: 20px;
     left: 20px;
 }
 
-div[title~="conFondo"] h1{
-    padding: 4px;    
+div[title~="conFondo"] h1 {
+    padding: 4px;
 }
-div[title="conFondo num1"]{
+
+div[title="conFondo num1"] {
     position: absolute;
     /*width: 35%;*/
     width: 250px;
@@ -21,7 +24,8 @@ div[title="conFondo num1"]{
     top: 2%;
     right: 3%;
 }
-div[title="conFondo num2"]{
+
+div[title="conFondo num2"] {
     position: fixed;
     background: black;
     width: 250px;
@@ -31,7 +35,7 @@ div[title="conFondo num2"]{
     right: calc(50% - 125px);
 }
 
-div[title="sinFondo num2"]{
+div[title="sinFondo num2"] {
     width: 110px;
     text-align: left;
     float: left;
@@ -40,16 +44,31 @@ div[title="sinFondo num2"]{
 .colum1of2 {
     float: left;
     width: 60%;
-    margin: 10px;    
+    margin: 10px;
 }
+
 .colum2of2 {
     float: left;
     width: 35%;
-    margin: 10px;    
+    margin: 10px;
 }
 
-.colum1of3, .colum2of3, .colum3of3 {
+.colum1of3,
+.colum2of3,
+.colum3of3 {
     width: 30%;
     float: left;
-    margin: 10px;    
+    margin: 10px;
+}
+
+
+/****--------Multiple style ---------------****/
+
+#page {
+    width: 600px;
+    text-align: left;
+    /* margin-left: auto;
+    margin-right: auto;*/
+    border: 1px solid #d6d6d6;
+    padding: 20px;
 }

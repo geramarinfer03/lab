@@ -1,14 +1,31 @@
-#container{
+#container {
     background: #DED2CF;
-    border: 8px solid black;    
+    border: 8px solid black;
 }
-/*body{
-    border: 2px solid red;    
+
+h1,
+h2,
+h3 {
+    font-family: sans-serif;
 }
-*/
-div[title~="conFondo"]{
+
+div[title~="conFondo"] {
     background: gray;
     color: white;
 }
 
+hr {
+    background-color: lightgray;
+    height: 1px;
+}
 
+h2[title~="tituloHr"] {
+    margin-bottom: -5px;
+    letter-spacing: 2px;
+}
+
+h3[title~="tituloH3"] {
+    font-size: 16px;
+    margin-top: -5px;
+    color: #547ca0;
+}
