@@ -32,20 +32,15 @@ $('#btn_cambiarContenido').click(function(){
 	var texto1 = $('h1').text();
 	var texto2 = $('#thing1').text(); 
 	$('#thing1').append(texto1);
-	$('h1').html(texto2);
+	//$('h1').html(texto2);
 
-	var texto3 = $('h1').text();
+	var texto3 = $('#thing1').text();
 	mostrarResultados(texto3, 'amarillo');
 });
 
 $('#btn_hijos').click(function(){
-	/*var texto1 = $('h1').text();
-	var texto2 = $('#thing1').text(); 
-	$('#thing1').html(texto1);
-	$('h1').html(texto2);
-
-	var texto3 = $('h1').text();
-	mostrarResultados(texto3, 'amarillo');*/
+	var texto1 = $('#languages').children().eq(1).contents().text();
+	mostrarResultados(texto1, 'rosado');
 
 });
 

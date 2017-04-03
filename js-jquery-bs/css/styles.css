@@ -10,3 +10,89 @@
 .amarillo{
 	color: #FAD201;
 }
+.rosado{
+	color: pink;
+}
+
+body{
+	background: #D3D3D3;
+}
+#container{
+	background: white;
+	height: 90%;
+}
+#wrapper {
+   
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height:100%;
+}
+.menu{
+	padding-top: 3%; 
+}
+
+.navbar-header{
+	background: whitesmoke;
+	height: 40px;
+}
+
+h1{
+	width: 100%;
+}
+
+footer{
+	height: 10%;
+	padding-top: 20px;
+}
+
+footer{
+	border-top: 2px solid #545454;
+	background: white;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*----------------------------------------------*/
+/*Textos  y titulos*/
+p{
+	font-family: "Nimbus Mono L", sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+h1,h2,h3,h4,h5{
+	font-family: "Courier 10 Pitch", sans-serif;
+}
+
+h3{
+	color: #3299CC;
+}
+h4{
+	color: green;
+}
+h5, .red_text{
+	color: red;
+	font-weight: bold;
+}
+.underline_text{
+	text-decoration: line-through;
+}
+/*----------------------------------------------*/
+
+div[title~="caja"] {
+    background: #C6A664;
+    border: solid black;
+    padding: 5px;
+}
+
+div[title~="caja"] a:last-child{
+	text-decoration: none;
+}
+
+	.sub_section img{
+		width: 100%;
+	}
